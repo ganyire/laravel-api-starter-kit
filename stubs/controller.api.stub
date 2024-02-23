@@ -1,0 +1,17 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\PrimaryController;
+use Illuminate\Http\Request;
+
+class {{ class }} extends PrimaryController
+{
+    /**
+     * Handle the incoming request.
+     */
+    public function __invoke(Request $request)
+    {
+        //
+    }
+}
